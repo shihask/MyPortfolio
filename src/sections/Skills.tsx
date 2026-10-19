@@ -1,5 +1,6 @@
 import { skillGroups, tierLabel, type Tier } from '../data/skills'
 import { Section } from '../components/ui'
+import { CloudSkills } from '../components/CloudSkills'
 
 const tierDot: Record<Tier, string> = {
   core: 'bg-accent',
@@ -42,6 +43,8 @@ export function Skills() {
           </section>
         ))}
       </div>
+
+      <CloudSkills />
     </Section>
   )
 }

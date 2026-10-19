@@ -71,8 +71,7 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       { name: 'React & TypeScript', tier: 'exploratory' },
       { name: 'Progressive Web Apps', tier: 'exploratory' },
-      { name: 'Supabase (Postgres, RLS, Auth)', tier: 'exploratory' },
-      { name: 'Supabase Edge Functions (Deno)', tier: 'exploratory' },
+      { name: 'Postgres & Row Level Security', tier: 'exploratory' },
       { name: 'pgvector & hybrid search', tier: 'exploratory' },
       { name: 'LLM API integration (Groq)', tier: 'exploratory' },
     ],
